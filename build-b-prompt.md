@@ -3,7 +3,7 @@
 Paste everything below the line as the first message of a fresh agent session
 started in `~/AndroidStudioProjects/anc-build-b-foundations`.
 Before starting: make sure HAPI is up (`colima start`, `docker-compose up -d`
-in `ohs-agent-experiment/`, re-seed if you reset it).
+in the repo root, re-seed if you reset it).
 
 ---
 
