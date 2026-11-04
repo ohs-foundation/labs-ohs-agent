@@ -1,4 +1,4 @@
-# OHS agent experiment
+# OHS Agent Experiment
 
 Measures what it costs an AI coding agent to build a standards-based
 (FHIR) health app compared with a custom one, and whether the OHS
@@ -125,7 +125,7 @@ cd harness
 
 After editing anything in `skills/`, run `./refresh-skills-templates.sh`.
 
-### 3. Every sitting
+### 3. Environment Setup
 
 ```bash
 colima start
