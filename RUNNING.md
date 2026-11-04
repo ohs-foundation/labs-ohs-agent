@@ -41,8 +41,8 @@ log in once by launching `agy` interactively (it uses Google OAuth, and its stat
 lives in `~/.gemini/antigravity-cli/`, separate from Gemini CLI's).
 `agy models` lists the ids the runner accepts. The harness `work/` dir
 must sit under a trusted workspace: `trustedWorkspaces` in
-`~/.gemini/antigravity-cli/settings.json` should list this repo's parent
-(`ohs-labs`), which the first interactive launch from there records.
+`~/.gemini/antigravity-cli/settings.json` should list this repo's folder
+(`labs-ohs-agent`), which the first interactive launch from there records.
 
 **Ripgrep** (optional). `brew install ripgrep`. The agent CLIs use it
 for code search when present.
@@ -216,7 +216,7 @@ For hand-driven runs outside the harness.
 RUN=runs/<run_id>
 mkdir -p $RUN
 # transcript.md  (from inside the session, before closing)
-#   /export ../ohs-labs/ohs-agent-experiment/runs/<run_id>/transcript.md
+#   /export ../labs-ohs-agent/runs/<run_id>/transcript.md
 # transcript.jsonl
 cp "$(ls -t ~/.claude/projects/<work-path>/*.jsonl | head -1)" $RUN/transcript.jsonl
 # code.diff

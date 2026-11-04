@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Rebuild the three skills templates from the current skills/ folder.
-# Run this whenever a skill in ohs-agent-experiment/skills/ changes, so the
+# Run this whenever a skill in skills/ changes, so the
 # runner picks it up. setup-templates.sh skips templates that already exist,
 # so editing skills/ alone does NOT reach the runner - this deletes the two
 # skills templates first, then rebuilds only those.

@@ -20,7 +20,7 @@ The 10 checks and how to test each one with these scripts are in
 `../../results/app-scores.md`. A session starts like this.
 
 ```bash
-cd ohs-agent-experiment/harness/walk
+cd harness/walk
 ./prep.sh s1-ohs-skills-claude-opus-5-5-medium-8
 python3 ui.py                      # find the patient row, then tap it
 ./input.sh tap 720 434
